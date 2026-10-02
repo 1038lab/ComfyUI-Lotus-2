@@ -1,0 +1,15 @@
+[project]
+name = "ComfyUI-Lotus-2"
+description = "A fast, standalone ComfyUI custom node for Lotus & Lotus 2 (Generative Depth and Surface Normal estimation)."
+version = "1.0.0"
+dependencies = [
+    "diffusers"
+]
+
+[project.urls]
+Repository = "https://github.com/1038lab/ComfyUI-Lotus-2"
+
+[tool.comfy]
+PublisherId = "ailab"
+DisplayName = "ComfyUI-Lotus-2"
+Icon = ""
